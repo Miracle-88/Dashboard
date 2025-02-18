@@ -15,7 +15,7 @@ st.sidebar.write("Divisi Anggaran dan Akuntansi @2024")
 
 # MAIN PAGE
 st.header(":bar_chart: Daftar Lengkap Aset Kelolaan LMAN ")
-st.markdown("Posisi per 30 Juni 2024")
+st.markdown("Posisi per 31 Desember 2024")
 st.markdown("---")
 
 url = "https://docs.google.com/spreadsheets/d/1br1v4cUjKQ7KCFfHaQfWIix-vw4gtm5-wsoRDAZ9dKQ/edit?usp=sharing"
