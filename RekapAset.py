@@ -25,7 +25,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 df = conn.read(spreadsheet=url, worksheet="1480371802")
 
 # TOP METRICS
-nilai_aset= int(df["Nilai Aset Kelolaan"].sum())
+nilai_aset= int(df["Nilai Aset"].sum())
 ak_penyusutan = int(df["Ak. Penyusutan"].sum())
 nilai_bersih = int(df["Nilai Bersih Aset"].sum())
 
